@@ -1,16 +1,11 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.10.2)
 project(ocs2_robotic_assets)
 
-find_package(catkin)
+find_package(ament_cmake REQUIRED)
 
 ###################################
 ## catkin specific configuration ##
 ###################################
-
-catkin_package(
-  INCLUDE_DIRS
-    include
-)
 
 ###########
 ## Build ##
@@ -26,10 +21,12 @@ configure_file (
 ## Install ##
 #############
 
-install(DIRECTORY include/${PROJECT_NAME}/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+install(DIRECTORY include/
+  DESTINATION include
 )
 
 install(DIRECTORY resources
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+  DESTINATION share/${PROJECT_NAME}
 )
+
+ament_package()

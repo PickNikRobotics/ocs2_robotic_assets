@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/senceryazici/ocs2_ws/install/ocs2_sqp/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_ros_interfaces/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_centroidal_model/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_pinocchio_interface/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_robotic_tools/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_ddp/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_qp_solver/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_mpc/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_core/include/**",
+        "/home/senceryazici/ocs2_ws/install/ocs2_thirdparty/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_core/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_ddp/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_mpc/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_oc/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_ocs2/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_pinocchio/ocs2_centroidal_model/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_pinocchio/ocs2_sphere_approximation/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot_ros/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_robotic_tools/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_ros_interfaces/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_sqp/hpipm_catkin/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_sqp/ocs2_sqp/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_test_tools/ocs2_qp_solver/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2/ocs2_thirdparty/include/**",
+        "/home/senceryazici/ocs2_ws/src/ocs2_robotic_assets/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
